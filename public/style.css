@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+.image {
+    width: 700px; 
+    height: auto;
+    display: flex;
+}
+
+.layout{
+    display: flex;
+    min-height: 100vh;
+}
+
+.haiti{
+    float: left;
+    position: relative; 
+    width: 800px;
+    height: auto;
+    background-color: #155263;
+}
+
+h1{
+    white-space: nowrap;
+    position: absolute;                             /* 位置指定 */
+    top: 30%;                                       /* 親要素の半分下にずらす */
+    left: 50%;                                      /* 親要素の半分右にずらす */
+    transform: translateY(-50%) translateX(-50%);   /* 要素自体の半分、上と左にずらす */
+    color: #FF6F3C;
+    font-family: 'Rock Salt', cursive;
+}
+
+.mozi_dake{
+    position: absolute;                             /* 位置指定 */
+    top: 50%;                                       /* 親要素の半分下にずらす */
+    left: 50%;                                      /* 親要素の半分右にずらす */
+    transform: translateY(-50%) translateX(-50%);   /* 要素自体の半分、上と左にずらす */
+    color: #C0C0C0;
+    font-family: 'Lora', serif;
+}
+
+ul{
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    list-style: none;
+}
+
+.font_toukou{
+    font-family: 'Lora', serif;
+    text-decoration:underline;/*下線を引く*/
+    text-underline-position:above;/*下線の位置をテキストの上に引く*/
+}
+
+.photo_toukou{
+    width: 350px;    /* 横幅を割合で指定 */
+    height: auto;    /* 高さは自動指定 */
+}
+
+.botton {
+    display: inline-block;
+    position: relative;
+}
+
+.button{
+    display: inline-block;
+    position: relative;
+}
+
+.button input[type="submit"] {
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.toukou_mozi {
+    float: left;
+    margin: 0 0 20px 20px;
+    text-decoration: underline;     /*下線を引く*/
+    text-underline-position:above;  /*下線の位置をテキストの上に引く*/
+}
+
+.for_margin {
+    float: right;
+}
+
+
